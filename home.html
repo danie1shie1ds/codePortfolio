@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daniel Shields - Computer Science Major at the University of Notre Dame</title>
+    <style>
+        .underline-on-hover:hover{
+            text-decoration: underline;
+        }
+    </style>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <button 
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        class="navbar-toggler"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div 
+            class="collapse navbar-collapse justify-content-center" 
+            id="navbarNav">
+            <ul class="navbar-nav" id="navigation">
+                <li class="nav-item active">
+                    <a href="home.html" class="nav-link underline-on-hover">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a target="_blank" href="https://github.com/danie1shie1ds" class="nav-link underline-on-hover">
+                        Github Repository
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a href="education.html" class="nav-link underline-on-hover">
+                        Education
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a href="honorsandawards.html" class="nav-link underline-on-hover">
+                        Honors & Awards
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 text-center">
+                <img width="250px" class="img-thumbnail rounded-circle" src="Pro_Headshot_Daniel.jpeg" alt="Daniel Shields Profile Photo">
+                <h1>Daniel Shields</h1>
+                <div class="info">
+                    <p>
+                        Junior
+                    </p>
+                    <p>
+                        Computer Science
+                    </p>
+                    <p>
+                        University of Notre Dame
+                    </p>
+                    <ul class="list-inline list-social-icons my-0 text-center text-dark">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.linkedin.com/in/daniel-shields-86669821a" role="button">
+                                <i class="fab fa-linkedin-in">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-8 text-center">
+                 <div>
+                    <h2>How much would you like to offer me? (in Thousands US$)</h2>
+                    <input id="salary" name="salary"></input>
+                    <button class="btn" onclick="getReaction()">Make Offer</button>
+                 </div>
+           
+                 <div id="result-parent">
+                    Hmmm...
+                    <span id="result"></span>
+                 </div>
+            </div>
+        </div>
+        
+
+    </div>
+
+
+    <footer class="footer mt-auto p-0 justify-content-center text-monospace">
+        Built with Bootstrap
+    </footer>
+    <script type="text/javascript" src="home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+/* Creates a background image for the homepage */
+body {
+    background-image: url("homepage_background.jpeg");
+    background-color: #cccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  h1, h2 {
+    color: #FFF;
+    text-align: center;
+  }
+
+  div.info {
+    color: #FFF;
+    line-height: 1;
+
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    color: #FFF;
+  }
+
+  div.col-4.text-center {
+    background-image: linear-gradient(grey, black);
+  }
+
+  ul#navigation {
+    font-weight:bold;
+    text-shadow: 2px 2px 5px #0000;
+  }
+
+
+  #result-parent {
+	font-size: 12pt; 
+	visibility: visible; /* element is initially hidden */
+	color: white;
+}

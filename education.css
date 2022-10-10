@@ -1,0 +1,37 @@
+/* Creates a background image for the homepage */
+body {
+    background-image: url("ND_Skyline.png");
+    background-color: #cccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  h1, h2 {
+    color: #FFF;
+    text-align: center;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    color: #FFF;
+  }
+
+  ul#navigation {
+    font-weight:bold;
+    text-shadow: 2px 2px 5px #000;
+  }
+
+  div#info {
+    margin: auto;
+    background-color: rgba(150, 150, 150, 0.4);
+    border-radius: 25px;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+
+  }
